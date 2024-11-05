@@ -1,10 +1,14 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
-      <button className="btn btn-primary">ok</button>
+      <div className="px-6 mt-6"><Navbar></Navbar></div>
+      <Outlet></Outlet>
+      <Footer></Footer>
     </>
   );
 }
