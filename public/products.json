@@ -1,0 +1,324 @@
+[
+  {
+    "product_id": "LAP001",
+    "product_title": "Dell XPS 13",
+    "product_image": "https://example.com/images/dell-xps-13.jpg",
+    "category": "Laptops",
+    "price": 1199.99,
+    "description": "A compact and high-performance laptop with a 13.3-inch display.",
+    "specification": [
+      "13.3-inch FHD+ display",
+      "Intel Core i7 11th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "Windows 10"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "LAP002",
+    "product_title": "MacBook Air M1",
+    "product_image": "https://example.com/images/macbook-air-m1.jpg",
+    "category": "Laptops",
+    "price": 999.99,
+    "description": "Lightweight laptop with Apple's powerful M1 chip and impressive battery life.",
+    "specification": [
+      "13.3-inch Retina display",
+      "Apple M1 chip",
+      "8GB RAM",
+      "256GB SSD",
+      "macOS"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "LAP003",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://example.com/images/hp-spectre-x360.jpg",
+    "category": "Laptops",
+    "price": 1299.99,
+    "description": "Versatile convertible laptop with stunning display and powerful performance.",
+    "specification": [
+      "13.3-inch 4K OLED display",
+      "Intel Core i7 11th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "Windows 10"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "LAP004",
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://example.com/images/thinkpad-x1-carbon.jpg",
+    "category": "Laptops",
+    "price": 1399.99,
+    "description": "Durable business laptop with high-end specs and lightweight design.",
+    "specification": [
+      "14-inch FHD+ display",
+      "Intel Core i7 11th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "Windows 10 Pro"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": "LAP005",
+    "product_title": "Acer Swift 3",
+    "product_image": "https://example.com/images/acer-swift-3.jpg",
+    "category": "Laptops",
+    "price": 749.99,
+    "description": "Budget-friendly laptop with solid performance for everyday tasks.",
+    "specification": [
+      "14-inch FHD display",
+      "AMD Ryzen 7 4700U",
+      "8GB RAM",
+      "512GB SSD",
+      "Windows 10"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "LAP006",
+    "product_title": "Microsoft Surface Laptop 4",
+    "product_image": "https://example.com/images/surface-laptop-4.jpg",
+    "category": "Laptops",
+    "price": 1099.99,
+    "description": "Elegant laptop that balances performance with a sleek design.",
+    "specification": [
+      "13.5-inch PixelSense display",
+      "Intel Core i5 11th Gen",
+      "8GB RAM",
+      "256GB SSD",
+      "Windows 10"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "PHN001",
+    "product_title": "iPhone 13 Pro",
+    "product_image": "https://example.com/images/iphone-13-pro.jpg",
+    "category": "Phones",
+    "price": 999.99,
+    "description": "Apple's flagship phone with advanced camera and A15 Bionic chip.",
+    "specification": [
+      "6.1-inch Super Retina XDR display",
+      "A15 Bionic chip",
+      "128GB storage",
+      "Triple-lens camera",
+      "iOS 15"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "PHN002",
+    "product_title": "Samsung Galaxy S21 Ultra",
+    "product_image": "https://example.com/images/galaxy-s21-ultra.jpg",
+    "category": "Phones",
+    "price": 1199.99,
+    "description": "High-end Samsung smartphone with exceptional camera and display.",
+    "specification": [
+      "6.8-inch Dynamic AMOLED 2X",
+      "Exynos 2100 / Snapdragon 888",
+      "12GB RAM",
+      "128GB storage",
+      "Quad-lens camera",
+      "Android 11"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "PHN003",
+    "product_title": "Google Pixel 6",
+    "product_image": "https://example.com/images/pixel-6.jpg",
+    "category": "Phones",
+    "price": 699.99,
+    "description": "Phone with advanced Google Tensor chip and top-notch camera features.",
+    "specification": [
+      "6.4-inch AMOLED display",
+      "Google Tensor chip",
+      "8GB RAM",
+      "128GB storage",
+      "Android 12"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "PHN004",
+    "product_title": "OnePlus 9 Pro",
+    "product_image": "https://example.com/images/oneplus-9-pro.jpg",
+    "category": "Phones",
+    "price": 969.99,
+    "description": "Smooth display and Hasselblad-tuned camera for professional-quality photos.",
+    "specification": [
+      "6.7-inch Fluid AMOLED",
+      "Snapdragon 888",
+      "12GB RAM",
+      "256GB storage",
+      "Android 11"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": "PHN005",
+    "product_title": "Xiaomi Mi 11 Ultra",
+    "product_image": "https://example.com/images/mi-11-ultra.jpg",
+    "category": "Phones",
+    "price": 899.99,
+    "description": "Impressive display and camera quality in a sleek package.",
+    "specification": [
+      "6.81-inch AMOLED display",
+      "Snapdragon 888",
+      "12GB RAM",
+      "256GB storage",
+      "Android 11"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "PHN006",
+    "product_title": "Sony Xperia 1 III",
+    "product_image": "https://example.com/images/xperia-1-iii.jpg",
+    "category": "Phones",
+    "price": 1199.99,
+    "description": "4K display phone with professional-grade camera technology.",
+    "specification": [
+      "6.5-inch 4K HDR OLED",
+      "Snapdragon 888",
+      "12GB RAM",
+      "256GB storage",
+      "Android 11"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": "WAT001",
+    "product_title": "Apple Watch Series 7",
+    "product_image": "https://example.com/images/apple-watch-series-7.jpg",
+    "category": "Smart Watches",
+    "price": 399.99,
+    "description": "Smart watch with health tracking features and larger display.",
+    "specification": [
+      "45mm display",
+      "Blood oxygen monitoring",
+      "ECG app",
+      "Heart rate sensor",
+      "Water resistant"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "WAT002",
+    "product_title": "Samsung Galaxy Watch 4",
+    "product_image": "https://example.com/images/galaxy-watch-4.jpg",
+    "category": "Smart Watches",
+    "price": 299.99,
+    "description": "Advanced health monitoring and Wear OS integration.",
+    "specification": [
+      "44mm display",
+      "Body composition analysis",
+      "ECG monitoring",
+      "Heart rate sensor",
+      "Water resistant"
+    ],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": "WAT003",
+    "product_title": "Fitbit Versa 3",
+    "product_image": "https://example.com/images/fitbit-versa-3.jpg",
+    "category": "Smart Watches",
+    "price": 229.99,
+    "description": "Fitbit watch with GPS and voice assistant capabilities.",
+    "specification": [
+      "1.58-inch AMOLED display",
+      "Built-in GPS",
+      "Heart rate monitor",
+      "Sleep tracking",
+      "Water resistant"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "WAT004",
+    "product_title": "Garmin Fenix 6 Pro",
+    "product_image": "https://example.com/images/garmin-fenix-6-pro.jpg",
+    "category": "Smart Watches",
+    "price": 549.99,
+    "description": "Rugged GPS watch built for performance and endurance.",
+    "specification": [
+      "1.3-inch display",
+      "Pulse Ox sensor",
+      "GPS tracking",
+      "Heart rate monitor",
+      "Water resistant"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "ACC001",
+    "product_title": "Anker PowerCore 10000",
+    "product_image": "https://example.com/images/anker-powercore-10000.jpg",
+    "category": "Accessories",
+    "price": 25.99,
+    "description": "Portable charger with fast charging and compact design.",
+    "specification": [
+      "10000mAh battery",
+      "Fast charging",
+      "Compact design",
+      "USB-A output",
+      "Micro-USB input"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "ACC002",
+    "product_title": "Logitech MX Master 3",
+    "product_image": "https://example.com/images/logitech-mx-master-3.jpg",
+    "category": "Accessories",
+    "price": 99.99,
+    "description": "Ergonomic wireless mouse with customizable buttons.",
+    "specification": [
+      "Ergonomic design",
+      "4000 DPI sensor",
+      "USB-C rechargeable",
+      "Bluetooth and USB connection"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "ACC003",
+    "product_title": "Samsung Galaxy Buds Pro",
+    "product_image": "https://example.com/images/galaxy-buds-pro.jpg",
+    "category": "Accessories",
+    "price": 199.99,
+    "description": "Earbuds with active noise cancellation and high-quality audio.",
+    "specification": [
+      "Active noise cancellation",
+      "Wireless charging",
+      "Bluetooth 5.0",
+      "IPX7 water resistance"
+    ],
+    "availability": true,
+    "rating": 4.7
+  }
+]

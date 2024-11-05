@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="px-6 mt-6"><Navbar></Navbar></div>
-      <Outlet></Outlet>
+      <div className="mb-10"><Outlet></Outlet></div>
       <Footer></Footer>
     </>
   );

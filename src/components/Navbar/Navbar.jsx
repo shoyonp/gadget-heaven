@@ -2,7 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaOpencart } from "react-icons/fa";
 import { IoMdHeartEmpty } from "react-icons/io";
-
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
@@ -29,25 +29,71 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/statistics">Statistics</NavLink>
-            <NavLink to="/dashboard">Dashboard</NavLink>
-            <NavLink to="/new">New</NavLink>
+            <NavLink
+              className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+              to="/"
+            >
+              Home
+            </NavLink>
+            <NavLink
+              className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+              to="/statistics"
+            >
+              Statistics
+            </NavLink>
+            <NavLink
+              className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+              to="/dashboard"
+            >
+              Dashboard
+            </NavLink>
+            <NavLink
+              className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+              to="/new"
+            >
+              New
+            </NavLink>
           </ul>
         </div>
-        <Link to='/' className="btn btn-ghost text-xl">Gadget Heaven</Link>
+        <Link to="/" className="btn btn-ghost text-xl">
+          Gadget Heaven
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-3">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/statistics">Statistics</NavLink>
-          <NavLink to="/dashboard">Dashboard</NavLink>
-          <NavLink to="/new">New</NavLink>
+          <NavLink
+            className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+            to="/"
+          >
+            Home
+          </NavLink>
+          <NavLink
+            className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+            to="/statistics"
+          >
+            Statistics
+          </NavLink>
+          <NavLink
+            className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+            to="/dashboard"
+          >
+            Dashboard
+          </NavLink>
+          <NavLink
+            className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+            to="/new"
+          >
+            New
+          </NavLink>
         </ul>
       </div>
       <div className="navbar-end gap-3 items-center text-black">
-        <span className="bg-white p-2 rounded-full"><FaOpencart></FaOpencart></span>
-        <span  className="bg-white p-2 rounded-full"><IoMdHeartEmpty></IoMdHeartEmpty></span>
+        <span className="bg-white p-2 rounded-full">
+          <FaOpencart></FaOpencart>
+        </span>
+        <span className="bg-white p-2 rounded-full">
+          <IoMdHeartEmpty></IoMdHeartEmpty>
+        </span>
       </div>
     </div>
   );
