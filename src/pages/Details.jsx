@@ -3,6 +3,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import Heading from "../components/Heading/Heading";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { FaStar,FaOpencart } from "react-icons/fa";
+import { addToCart, getAllCarts } from "../components/utility";
 
 const Details = () => {
   const data = useLoaderData();
@@ -21,6 +22,11 @@ const Details = () => {
     availability,
     rating,
   } = product;
+
+
+  const handleAddToCart = (product) => {
+    addToCart(product)
+  }
 
   return (
     <>
@@ -90,7 +96,7 @@ const Details = () => {
               </p>
             </div>
             <div className="flex items-center gap-3 mt-4">
-              <button className="bg-[#9538E2] p-3 flex gap-2 items-center font-bold hover:bg-slate-300 hover:text-black text-white rounded-3xl">
+              <button onClick={()=> handleAddToCart(product)} className="bg-[#9538E2] p-3 flex gap-2 items-center font-bold hover:bg-slate-300 hover:text-black text-white rounded-3xl">
                 Add to cart<FaOpencart></FaOpencart>
               </button>
               <button className="p-3 border hover:bg-slate-300 rounded-full"><IoMdHeartEmpty></IoMdHeartEmpty></button>
