@@ -7,22 +7,24 @@ const Products = () => {
   const { category } = useParams();
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    if(category){
-        const filteredByCategory = [...data].filter(
-            (product) => product.category == category
-          );
-          setProducts(filteredByCategory)
-    }
-    else{
-        setProducts(data.slice(0,9))
+    if (category) {
+      const filteredByCategory = [...data].filter(
+        (product) => product.category == category
+      );
+      setProducts(filteredByCategory);
+    } else {
+      setProducts(data.slice(0, 9));
     }
   }, [data, category]);
+
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-      {products.map((product, idx) => (
-        <Card key={idx} product={product}></Card>
-      ))}
-    </div>
+    <>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        {products.map((product, idx) => (
+          <Card key={idx} product={product}></Card>
+        ))}
+      </div>
+    </>
   );
 };
 

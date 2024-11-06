@@ -2,7 +2,7 @@
   {
     "product_id": "LAP001",
     "product_title": "Dell XPS 13",
-    "product_image": "https://example.com/images/dell-xps-13.jpg",
+    "product_image": "https://i.ibb.co.com/4TpqLhN/unnamed.jpg",
     "category": "Laptops",
     "price": 1199.99,
     "description": "A compact and high-performance laptop with a 13.3-inch display.",
@@ -19,7 +19,7 @@
   {
     "product_id": "LAP002",
     "product_title": "MacBook Air M1",
-    "product_image": "https://example.com/images/macbook-air-m1.jpg",
+    "product_image": "https://i.ibb.co.com/pZPXL18/Apple-new-macbookair-wallpaper-screen-11102020-big-jpg-large.jpg",
     "category": "Laptops",
     "price": 999.99,
     "description": "Lightweight laptop with Apple's powerful M1 chip and impressive battery life.",
@@ -36,7 +36,7 @@
   {
     "product_id": "LAP003",
     "product_title": "HP Spectre x360",
-    "product_image": "https://example.com/images/hp-spectre-x360.jpg",
+    "product_image": "https://i.ibb.co.com/YPNZS2S/download.jpg",
     "category": "Laptops",
     "price": 1299.99,
     "description": "Versatile convertible laptop with stunning display and powerful performance.",
@@ -53,7 +53,7 @@
   {
     "product_id": "LAP004",
     "product_title": "Lenovo ThinkPad X1 Carbon",
-    "product_image": "https://example.com/images/thinkpad-x1-carbon.jpg",
+    "product_image": "https://i.ibb.co.com/fNBCmHX/Lenovo-Think-Pad-X1-Carbon-Gen11-O1-WW-11-P-price-in-Bangladesh-MC-Solution-BD-1200x900.webp",
     "category": "Laptops",
     "price": 1399.99,
     "description": "Durable business laptop with high-end specs and lightweight design.",
@@ -70,7 +70,7 @@
   {
     "product_id": "LAP005",
     "product_title": "Acer Swift 3",
-    "product_image": "https://example.com/images/acer-swift-3.jpg",
+    "product_image": "https://i.ibb.co.com/Kr404sR/Acer-Swift-3-SF314-Price-1.webp",
     "category": "Laptops",
     "price": 749.99,
     "description": "Budget-friendly laptop with solid performance for everyday tasks.",
@@ -87,7 +87,7 @@
   {
     "product_id": "LAP006",
     "product_title": "Microsoft Surface Laptop 4",
-    "product_image": "https://example.com/images/surface-laptop-4.jpg",
+    "product_image": "https://i.ibb.co.com/fHpzb3r/PDP-Highlight-Surface-Laptop-4-Sandstone-VP2-859x540.jpg",
     "category": "Laptops",
     "price": 1099.99,
     "description": "Elegant laptop that balances performance with a sleek design.",
@@ -104,7 +104,7 @@
   {
     "product_id": "PHN001",
     "product_title": "iPhone 13 Pro",
-    "product_image": "https://example.com/images/iphone-13-pro.jpg",
+    "product_image": "https://i.ibb.co.com/frx1CzC/Total-by-Verizon-Apple-i-Phone-13-Pro-Max-128-GB-Gold-Prepaid-Smartphone-Locked.webp",
     "category": "Phones",
     "price": 999.99,
     "description": "Apple's flagship phone with advanced camera and A15 Bionic chip.",
@@ -121,7 +121,7 @@
   {
     "product_id": "PHN002",
     "product_title": "Samsung Galaxy S21 Ultra",
-    "product_image": "https://example.com/images/galaxy-s21-ultra.jpg",
+    "product_image": "https://i.ibb.co.com/XZTfddg/Samsung-S21-Ultra-Used-Price.png",
     "category": "Phones",
     "price": 1199.99,
     "description": "High-end Samsung smartphone with exceptional camera and display.",
@@ -139,7 +139,7 @@
   {
     "product_id": "PHN003",
     "product_title": "Google Pixel 6",
-    "product_image": "https://example.com/images/pixel-6.jpg",
+    "product_image": "https://i.ibb.co.com/17wbVYW/b-1-500x500.webp",
     "category": "Phones",
     "price": 699.99,
     "description": "Phone with advanced Google Tensor chip and top-notch camera features.",
@@ -156,7 +156,7 @@
   {
     "product_id": "PHN004",
     "product_title": "OnePlus 9 Pro",
-    "product_image": "https://example.com/images/oneplus-9-pro.jpg",
+    "product_image": "https://i.ibb.co.com/DgQZ7L4/Oneplus-9-Pro-12-256-1.jpg",
     "category": "Phones",
     "price": 969.99,
     "description": "Smooth display and Hasselblad-tuned camera for professional-quality photos.",
@@ -173,7 +173,7 @@
   {
     "product_id": "PHN005",
     "product_title": "Xiaomi Mi 11 Ultra",
-    "product_image": "https://example.com/images/mi-11-ultra.jpg",
+    "product_image": "https://i.ibb.co.com/3YtFP9X/2675-54350.jpg",
     "category": "Phones",
     "price": 899.99,
     "description": "Impressive display and camera quality in a sleek package.",
@@ -190,7 +190,7 @@
   {
     "product_id": "PHN006",
     "product_title": "Sony Xperia 1 III",
-    "product_image": "https://example.com/images/xperia-1-iii.jpg",
+    "product_image": "https://i.ibb.co.com/dK0M6Cz/Sony-Xperia-1-III.jpg",
     "category": "Phones",
     "price": 1199.99,
     "description": "4K display phone with professional-grade camera technology.",
@@ -207,7 +207,7 @@
   {
     "product_id": "WAT001",
     "product_title": "Apple Watch Series 7",
-    "product_image": "https://example.com/images/apple-watch-series-7.jpg",
+    "product_image": "https://i.ibb.co.com/sWTp2Qn/Apple-Watch-Series-7-GPS-45mm-Midnight-Aluminum-Case-with-Midnight-Sport-Band-Regular.webp",
     "category": "Smart Watches",
     "price": 399.99,
     "description": "Smart watch with health tracking features and larger display.",
@@ -224,7 +224,7 @@
   {
     "product_id": "WAT002",
     "product_title": "Samsung Galaxy Watch 4",
-    "product_image": "https://example.com/images/galaxy-watch-4.jpg",
+    "product_image": "https://i.ibb.co.com/L91t1Wp/galaxy-watch4-silver.webp",
     "category": "Smart Watches",
     "price": 299.99,
     "description": "Advanced health monitoring and Wear OS integration.",
@@ -241,7 +241,7 @@
   {
     "product_id": "WAT003",
     "product_title": "Fitbit Versa 3",
-    "product_image": "https://example.com/images/fitbit-versa-3.jpg",
+    "product_image": "https://i.ibb.co.com/KxLpT4g/Fitbit-Versa-3-Smart-Watch-Black-9119.jpg",
     "category": "Smart Watches",
     "price": 229.99,
     "description": "Fitbit watch with GPS and voice assistant capabilities.",
@@ -258,7 +258,7 @@
   {
     "product_id": "WAT004",
     "product_title": "Garmin Fenix 6 Pro",
-    "product_image": "https://example.com/images/garmin-fenix-6-pro.jpg",
+    "product_image": "https://i.ibb.co.com/5k25xgZ/359106-6817-XL.jpg",
     "category": "Smart Watches",
     "price": 549.99,
     "description": "Rugged GPS watch built for performance and endurance.",
@@ -275,7 +275,7 @@
   {
     "product_id": "ACC001",
     "product_title": "Anker PowerCore 10000",
-    "product_image": "https://example.com/images/anker-powercore-10000.jpg",
+    "product_image": "https://i.ibb.co.com/NFh9xZT/51-A0-U7ejkr-L-AC-UF894-1000-QL80.jpg",
     "category": "Accessories",
     "price": 25.99,
     "description": "Portable charger with fast charging and compact design.",
@@ -292,7 +292,7 @@
   {
     "product_id": "ACC002",
     "product_title": "Logitech MX Master 3",
-    "product_image": "https://example.com/images/logitech-mx-master-3.jpg",
+    "product_image": "https://i.ibb.co.com/48hWXzR/4127-72278.jpg",
     "category": "Accessories",
     "price": 99.99,
     "description": "Ergonomic wireless mouse with customizable buttons.",
@@ -308,7 +308,7 @@
   {
     "product_id": "ACC003",
     "product_title": "Samsung Galaxy Buds Pro",
-    "product_image": "https://example.com/images/galaxy-buds-pro.jpg",
+    "product_image": "https://i.ibb.co.com/bNT8ybv/2119-44320.jpg",
     "category": "Accessories",
     "price": 199.99,
     "description": "Earbuds with active noise cancellation and high-quality audio.",

@@ -42,7 +42,9 @@ const Navbar = () => {
               Statistics
             </NavLink>
             <NavLink
-              className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+              className={({ isActive }) =>
+                ` ${isActive ? "link-active bg-white" : ""}`
+              }
               to="/dashboard"
             >
               Dashboard
@@ -62,25 +64,33 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-3">
           <NavLink
-            className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+            className={({ isActive }) =>
+              `hover:text-black  ${isActive ? "link-active" : ""}`
+            }
             to="/"
           >
             Home
           </NavLink>
           <NavLink
-            className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+            className={({ isActive }) =>
+              `hover:text-black ${isActive ? "link-active" : ""}`
+            }
             to="/statistics"
           >
             Statistics
           </NavLink>
           <NavLink
-            className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+            className={({ isActive }) =>
+              `hover:text-black ${isActive ? "link-active" : ""}`
+            }
             to="/dashboard"
           >
             Dashboard
           </NavLink>
           <NavLink
-            className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+            className={({ isActive }) =>
+              `hover:text-black ${isActive ? "link-active" : ""}`
+            }
             to="/new"
           >
             New
