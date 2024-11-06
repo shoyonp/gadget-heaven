@@ -2,16 +2,28 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import Heading from "../components/Heading/Heading";
 import { IoMdHeartEmpty } from "react-icons/io";
-import { FaStar,FaOpencart } from "react-icons/fa";
-import { addToCart, getAllCarts } from "../components/utility";
+import { FaStar, FaOpencart } from "react-icons/fa";
+import {
+  addToCart,
+  addToWishlist,
+  getAllWishlists,
+} from "../components/utility";
 
 const Details = () => {
   const data = useLoaderData();
   const { product_id } = useParams();
   const [product, setProduct] = useState({});
+  const [isWishlist, setIsWishlist] = useState(false);
   useEffect(() => {
     const singleData = data.find((product) => product.product_id == product_id);
     setProduct(singleData);
+    const wishlist = getAllWishlists();
+    const isExist = wishlist.find(
+      (item) => item.product_id == singleData.product_id
+    );
+    if (isExist) {
+      setIsWishlist(true);
+    }
   }, [product_id, data]);
   const {
     product_title,
@@ -23,10 +35,13 @@ const Details = () => {
     rating,
   } = product;
 
-
   const handleAddToCart = (product) => {
-    addToCart(product)
-  }
+    addToCart(product);
+  };
+  const handleAddToWishlist = (product) => {
+    addToWishlist(product);
+    setIsWishlist(true);
+  };
 
   return (
     <>
@@ -48,7 +63,9 @@ const Details = () => {
           </div>
           <div className="text-black text-left">
             <h1 className="font-semibold text-2xl mb-2">{product_title}</h1>
-            <p className="font-semibold text-lg opacity-60 mb-2">Price:$ {price}</p>
+            <p className="font-semibold text-lg opacity-60 mb-2">
+              Price:$ {price}
+            </p>
             <p className="p-2 w-36 text-center rounded-3xl mb-2 border border-[#309C08] bg-[#309C08]/10 text-[#309C08]">{`${
               availability == true ? "In Stock" : " Out of Stock"
             }`}</p>
@@ -62,7 +79,9 @@ const Details = () => {
                   </li>
                 ))}
             </div>
-            <span className="font-bold text-lg flex gap-3 items-center mt-2">Rating <FaStar></FaStar></span>
+            <span className="font-bold text-lg flex gap-3 items-center mt-2">
+              Rating <FaStar></FaStar>
+            </span>
             <div className="flex items-center gap-3 ">
               <div className="rating">
                 <input
@@ -96,10 +115,19 @@ const Details = () => {
               </p>
             </div>
             <div className="flex items-center gap-3 mt-4">
-              <button onClick={()=> handleAddToCart(product)} className="bg-[#9538E2] p-3 flex gap-2 items-center font-bold hover:bg-slate-300 hover:text-black text-white rounded-3xl">
+              <button
+                onClick={() => handleAddToCart(product)}
+                className="bg-[#9538E2] p-3 flex gap-2 items-center font-bold hover:bg-slate-300 hover:text-black text-white rounded-3xl"
+              >
                 Add to cart<FaOpencart></FaOpencart>
               </button>
-              <button className="p-3 border hover:bg-slate-300 rounded-full"><IoMdHeartEmpty></IoMdHeartEmpty></button>
+              <button
+                disabled={isWishlist}
+                onClick={() => handleAddToWishlist(product)}
+                className="p-3 border bg-[#9538E2] hover:bg-slate-300 rounded-full"
+              >
+                <IoMdHeartEmpty></IoMdHeartEmpty>
+              </button>
             </div>
           </div>
         </div>
