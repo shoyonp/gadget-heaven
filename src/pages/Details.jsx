@@ -9,22 +9,23 @@ import {
   getAllWishlists,
 } from "../components/utility";
 
-const Details = () => {
+const Details = ({ singleData }) => {
   const data = useLoaderData();
   const { product_id } = useParams();
   const [product, setProduct] = useState({});
-  const [isWishlist, setIsWishlist] = useState(false);
+  const [isInWishlist, setIsInWishlist] = useState(false);
   useEffect(() => {
     const singleData = data.find((product) => product.product_id == product_id);
     setProduct(singleData);
-    const wishlist = getAllWishlists();
-    const isExist = wishlist.find(
+    const wishLists = getAllWishlists();
+    const isExist = wishLists.find(
       (item) => item.product_id == singleData.product_id
     );
     if (isExist) {
-      setIsWishlist(true);
+      setIsInWishlist(true);
     }
   }, [product_id, data]);
+
   const {
     product_title,
     product_image,
@@ -38,9 +39,10 @@ const Details = () => {
   const handleAddToCart = (product) => {
     addToCart(product);
   };
+
   const handleAddToWishlist = (product) => {
     addToWishlist(product);
-    setIsWishlist(true);
+    setIsInWishlist(true);
   };
 
   return (
@@ -122,7 +124,7 @@ const Details = () => {
                 Add to cart<FaOpencart></FaOpencart>
               </button>
               <button
-                disabled={isWishlist}
+                disabled={isInWishlist}
                 onClick={() => handleAddToWishlist(product)}
                 className="p-3 border bg-[#9538E2] hover:bg-slate-300 rounded-full"
               >

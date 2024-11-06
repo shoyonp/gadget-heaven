@@ -6,12 +6,14 @@ import Details from "../pages/Details";
 import New from "../pages/New";
 import Dashboard from "../pages/Dashboard";
 import Products from "../components/Products/Products";
+import Cart from "../pages/Cart";
+import Wishlist from "../pages/Wishlist";
 
 const routes = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
-    errorElement: <p>Error</p>,
+    errorElement: <p className="text-6xl font-bold text-center">404</p>,
     children: [
       {
         path: "/",
@@ -37,6 +39,21 @@ const routes = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard></Dashboard>,
+        children: [
+          {
+            path: "cart",
+            element: <Cart></Cart>,
+            loader: () => fetch("../../public/products.json"),
+          },
+          {
+            path: "/dashboard",
+            element: <Cart></Cart>,
+          },
+          {
+            path: "wishlist",
+            element: <Wishlist></Wishlist>,
+          },
+        ],
       },
       {
         path: "/products/:product_id",

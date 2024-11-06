@@ -1,4 +1,15 @@
 .link-active{
     /* color: #9538E2; */
     color: chartreuse;
+    /* padding: 3px; */
+    /* background-color: gray; */
+    /* border: 1px solid black; */
+    /* border-radius: 20px; */
+}
+.bg{
+    background-color: #9538E2;
+}
+.removebg{
+    background-color: white;
+    color: #9538E2;
 }

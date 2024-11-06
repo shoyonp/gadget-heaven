@@ -1,12 +1,18 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { FaOpencart } from "react-icons/fa";
 import { IoMdHeartEmpty } from "react-icons/io";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const { pathname } = useLocation();
+  // console.log(locaion);
   return (
-    <div className="nav navbar bg-[#9538E2] text-white px-6">
+    <div
+      className={`nav navbar bg text-white px-6 ${
+        pathname === "/" || ("/dashboard" && "removebg")
+      }`}
+    >
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -68,7 +74,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-3">
+        <ul className="menu menu-horizontal gap-5">
           <NavLink
             className={({ isActive }) =>
               `hover:text-black  ${isActive ? "link-active" : ""}`
