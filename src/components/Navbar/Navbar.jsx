@@ -30,27 +30,33 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <NavLink
-              className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+              className={({ isActive }) =>
+                ` text-black ${isActive ? "link-active" : ""}`
+              }
               to="/"
             >
               Home
             </NavLink>
             <NavLink
-              className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+              className={({ isActive }) =>
+                `text-black ${isActive ? "link-active" : ""}`
+              }
               to="/statistics"
             >
               Statistics
             </NavLink>
             <NavLink
               className={({ isActive }) =>
-                ` ${isActive ? "link-active bg-white" : ""}`
+                `text-black ${isActive ? "link-active bg-white" : ""}`
               }
               to="/dashboard"
             >
               Dashboard
             </NavLink>
             <NavLink
-              className={({ isActive }) => ` ${isActive ? "link-active" : ""}`}
+              className={({ isActive }) =>
+                `text-black ${isActive ? "link-active" : ""}`
+              }
               to="/new"
             >
               New
