@@ -50,6 +50,14 @@ const removeCart = (id) => {
   toast.success("Successfully removed");
 };
 
+// remove all product form localstorage cart
+// const removeAllCart = (array) =>{
+//     const carts = getAllCarts();
+//     let remaining = (carts != array);
+//   localStorage.setItem("carts", JSON.stringify(remaining));
+//   toast.success("Successfully removed");
+// }
+
 // remove a product from localstorage wish
 const removeWishlist = (id) => {
   const wishLists = getAllWishlists();
