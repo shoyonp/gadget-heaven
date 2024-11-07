@@ -19,7 +19,7 @@ const Banner = () => {
           Shop Now
         </button>
       </div>
-      <div className="backdrop-blur border border-white rounded-3xl p-4 absolute top-[480px] left-9 w-4/5 lg:left-[400px] lg:top-[280px] lg:w-fit">
+      <div className="backdrop-blur border border-white rounded-3xl p-4 absolute top-[480px] left-9 w-4/5 lg:left-[240px] lg:top-[280px] lg:w-fit">
         <img
           className="lg:w-[1000px] lg:h-[560px] rounded-3xl"
           src={vr}

@@ -7,9 +7,14 @@ import UseTitle from "../components/UseTitle/UseTitle";
 const Cart = () => {
     UseTitle("Cart")
   const [cartList, setCartList] = useState([]);
+  console.log(cartList);
   useEffect(() => {
     const carts = getAllCarts();
     setCartList(carts);
+
+
+    // cartList.filter(cart=> <span>{cart.reduce(cart.price+cart.price)}</span>)
+    
   }, []);
 
   const [sortProduct, setShortProduct] = useState(cartList);

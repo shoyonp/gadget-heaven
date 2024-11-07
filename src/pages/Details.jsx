@@ -58,7 +58,7 @@ const Details = ({ singleData }) => {
         <div className="bg-gray-100 flex flex-col md:flex-row gap-7 items-center border-none rounded-3xl p-5 md:w-4/6 mx-auto">
           <div>
             <img
-              className=" rounded-2xl md:h-[500px] w-[550px]"
+              className=" rounded-2xl md:h-[500px] w-[550px] object-cover"
               src={product_image}
               alt=""
             />

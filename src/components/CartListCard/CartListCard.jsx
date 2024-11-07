@@ -14,7 +14,7 @@ const CartListCard = ({ cart, handleRemove }) => {
       </div>
       <div>
         <h1 className="font-semibold text-2xl mb-3">{product_title}</h1>
-        <div className="flex flex-col md:flex-row items-center gap-3">
+        <div className="flex flex-col md:flex-row  gap-3">
           <span className="font-semibold text-lg mb-3">Description:</span>
           <p className="text-black/60 mb-3">{description}</p>
         </div>
@@ -22,7 +22,7 @@ const CartListCard = ({ cart, handleRemove }) => {
       </div>
       <button
         onClick={() => handleRemove(product_id)}
-        className="text-4xl text-red-500 absolute left-[320px] lg:left-[1100px]"
+        className="text-4xl text-red-500 "
       >
         <TbXboxX></TbXboxX>
       </button>
