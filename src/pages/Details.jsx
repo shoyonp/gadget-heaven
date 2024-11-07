@@ -75,7 +75,7 @@ const Details = ({ singleData }) => {
             <div>
               <p className="font-bold text-lg mb-2">Specification:</p>
               {specification &&
-                specification.map((specs, idx) => (
+                specification?.map((specs, idx) => (
                   <li className="text-black/60" key={idx}>
                     {specs}
                   </li>

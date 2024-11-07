@@ -110,10 +110,10 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end gap-3 items-center text-black">
-        <span className="bg-white p-2 rounded-full">
+        <span className="bg-white p-2 border rounded-full">
           <FaOpencart></FaOpencart>
         </span>
-        <span className="bg-white p-2 rounded-full">
+        <span className="bg-white p-2 border rounded-full">
           <IoMdHeartEmpty></IoMdHeartEmpty>
         </span>
       </div>

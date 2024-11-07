@@ -15,7 +15,7 @@ const Categories = ({ categories }) => {
           All products
         </NavLink>
       </span>
-      {categories.map((category) => (
+      {categories?.map((category) => (
         <span key={category.product_id} className="flex flex-col my-3">
           <NavLink
             className={({ isActive }) =>

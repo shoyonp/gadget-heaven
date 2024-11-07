@@ -5,8 +5,8 @@ import Categories from "../components/Categories/Categories";
 import UseTitle from "../components/UseTitle/UseTitle";
 
 const Home = () => {
-    UseTitle("Home")
-    const categories = useLoaderData();
+  UseTitle("Home");
+  const categories = useLoaderData();
   return (
     <div>
       <div className="px-6">
@@ -17,8 +17,8 @@ const Home = () => {
       </h1>
 
       <div className="flex flex-col md:grid grid-flow-col gap-10 w-3/4 mx-auto">
-      <Categories categories={categories}></Categories>
-      <Outlet></Outlet>
+        <div className="h-[100px]"><Categories categories={categories}></Categories></div>
+        <Outlet></Outlet>
       </div>
     </div>
   );

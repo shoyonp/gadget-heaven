@@ -20,7 +20,7 @@ const Products = () => {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        {products.map((product, idx) => (
+        {products?.map((product, idx) => (
           <Card key={idx} product={product}></Card>
         ))}
       </div>
