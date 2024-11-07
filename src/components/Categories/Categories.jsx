@@ -10,7 +10,7 @@ const Categories = ({ categories }) => {
               isActive ? "active" : ""
             }`
           }
-          to='/'
+          to="/"
         >
           All products
         </NavLink>
