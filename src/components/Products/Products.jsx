@@ -13,7 +13,7 @@ const Products = () => {
       );
       setProducts(filteredByCategory);
     } else {
-      setProducts(data.slice(0, 9));
+      setProducts(data);
     }
   }, [data, category]);
 

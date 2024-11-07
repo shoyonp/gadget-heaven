@@ -1,12 +1,9 @@
-import React, { useEffect, useState } from "react";
 import "./Dashboard.css";
 import Heading from "../components/Heading/Heading";
 import { NavLink, Outlet } from "react-router-dom";
-import { getAllWishlists } from "../components/utility";
-import Card from "../components/Card/Card";
-import Wishlist from "./Wishlist";
 
 const Dashboard = () => {
+
   return (
     <>
       <div className="bg-[#9538E2] p-9 text-center">
