@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { TbXboxX } from "react-icons/tb";
 
 const CartListCard = ({ cart, handleRemove }) => {
   const { price, product_title, description, product_image, product_id } = cart;
+//   const [totalPrice, setTotalPrice] = useState(0);
+//   let totalCost = () => {
+//     let cost = price;
+//     let newCost = cost + price;
+//     setTotalPrice(newCost);
+//     console.log(newCost);
+//   };
   return (
     <div className="flex flex-col md:flex-row  text-center md:text-left items-center gap-5 bg-gray-200 p-4 rounded-2xl mb-3 relative">
       <div>

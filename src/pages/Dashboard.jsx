@@ -1,9 +1,10 @@
 import "./Dashboard.css";
 import Heading from "../components/Heading/Heading";
 import { NavLink, Outlet } from "react-router-dom";
+import UseTitle from "../components/UseTitle/UseTitle";
 
 const Dashboard = () => {
-
+UseTitle("Dashboard")
   return (
     <>
       <div className="bg-[#9538E2] p-9 text-center">

@@ -3,11 +3,11 @@ import App from "../App";
 import Home from "../pages/Home";
 import Statistics from "../pages/Statistics";
 import Details from "../pages/Details";
-import New from "../pages/New";
 import Dashboard from "../pages/Dashboard";
 import Products from "../components/Products/Products";
 import Cart from "../pages/Cart";
 import Wishlist from "../pages/Wishlist";
+import Faq from "../pages/Faq";
 
 const routes = createBrowserRouter([
   {
@@ -61,8 +61,8 @@ const routes = createBrowserRouter([
         loader: () => fetch("../../public/products.json"),
       },
       {
-        path: "/new",
-        element: <New></New>,
+        path: "/faq",
+        element: <Faq></Faq>,
       },
     ],
   },

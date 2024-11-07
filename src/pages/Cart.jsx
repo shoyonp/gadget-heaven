@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 import { getAllCarts, removeCart } from "../components/utility";
 import { PiSliders } from "react-icons/pi";
 import CartListCard from "../components/CartListCard/CartListCard";
+import UseTitle from "../components/UseTitle/UseTitle";
 
 const Cart = () => {
+    UseTitle("Cart")
   const [cartList, setCartList] = useState([]);
   useEffect(() => {
     const carts = getAllCarts();
@@ -14,7 +16,6 @@ const Cart = () => {
   console.log(sortProduct);
   const handleSort = () => {
     const sorted = [...cartList].sort((a, b) => b.price - a.price);
-    console.log(sorted);
     setShortProduct(sorted);
   };
 

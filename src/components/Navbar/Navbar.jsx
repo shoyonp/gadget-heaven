@@ -63,9 +63,9 @@ const Navbar = () => {
               className={({ isActive }) =>
                 `text-black ${isActive ? "link-active" : ""}`
               }
-              to="/new"
+              to="/faq"
             >
-              New
+              FAQ
             </NavLink>
           </ul>
         </div>
@@ -103,9 +103,9 @@ const Navbar = () => {
             className={({ isActive }) =>
               `hover:text-black ${isActive ? "link-active" : ""}`
             }
-            to="/new"
+            to="/faq"
           >
-            New
+            FAQ
           </NavLink>
         </ul>
       </div>
