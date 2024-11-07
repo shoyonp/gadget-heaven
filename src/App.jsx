@@ -10,7 +10,7 @@ function App() {
     <Toaster></Toaster>
       <div className="px-6 mt-6"><Navbar></Navbar></div>
       <div className="mb-10"><Outlet></Outlet></div>
-      <Footer></Footer>
+      <div className=" md:mt-10"><Footer></Footer></div>
     </>
   );
 }

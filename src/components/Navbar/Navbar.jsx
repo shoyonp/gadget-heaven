@@ -37,7 +37,7 @@ const Navbar = () => {
           >
             <NavLink
               className={({ isActive }) =>
-                ` text-black ${isActive ? "link-active" : ""}`
+                ` text-black mb-2 ${isActive ? "link-active" : ""}`
               }
               to="/"
             >
@@ -45,7 +45,7 @@ const Navbar = () => {
             </NavLink>
             <NavLink
               className={({ isActive }) =>
-                `text-black ${isActive ? "link-active" : ""}`
+                `text-black mb-2 ${isActive ? "link-active" : ""}`
               }
               to="/statistics"
             >
@@ -53,7 +53,7 @@ const Navbar = () => {
             </NavLink>
             <NavLink
               className={({ isActive }) =>
-                `text-black ${isActive ? "link-active bg-white" : ""}`
+                `text-black mb-2 ${isActive ? "link-active bg-white" : ""}`
               }
               to="/dashboard"
             >
@@ -61,7 +61,7 @@ const Navbar = () => {
             </NavLink>
             <NavLink
               className={({ isActive }) =>
-                `text-black ${isActive ? "link-active" : ""}`
+                `text-black mb-2 ${isActive ? "link-active" : ""}`
               }
               to="/faq"
             >

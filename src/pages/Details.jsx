@@ -47,7 +47,7 @@ const Details = ({ singleData }) => {
 
   return (
     <>
-      <div className="bg-[#9538E2] px-10 h-80 text-white text-center mb-32 lg:mb-96">
+      <div className="bg-[#9538E2] px-10 h-80 text-white text-center mb-[780px] lg:mb-96">
         <div className="w-3/4 mx-auto">
           <Heading
             title={"Product Details"}
