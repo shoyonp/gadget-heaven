@@ -6,7 +6,7 @@ const Categories = ({ categories }) => {
       <span className="">
         <NavLink
           className={({ isActive }) =>
-            `bg-gray-200 p-3 hover:bg-[#9538E2] hover:text-white rounded-3xl ${
+            `bg-gray-200 p-3 hover:bg-gray-400 hover:text-white rounded-3xl ${
               isActive ? "active" : ""
             }`
           }
@@ -19,7 +19,7 @@ const Categories = ({ categories }) => {
         <span key={category.product_id} className="flex flex-col my-3">
           <NavLink
             className={({ isActive }) =>
-              `bg-gray-200 p-3 hover:bg-[#9538E2] hover:text-white rounded-3xl ${
+              `bg-gray-200 p-3 hover:bg-gray-400 hover:text-white rounded-3xl ${
                 isActive ? "active" : ""
               }`
             }
