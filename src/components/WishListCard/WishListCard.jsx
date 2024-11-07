@@ -1,7 +1,6 @@
 import { TbXboxX } from "react-icons/tb";
 
 const WishListCard = ({ product, handleRemove }) => {
-  console.log(product);
   const { price, product_title, description, product_image, product_id } =
     product;
   return (
